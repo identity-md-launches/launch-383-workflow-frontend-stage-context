@@ -1,0 +1,28 @@
+{
+  "observedAt": "2026-09-27T07:26:29.762Z",
+  "readOnly": true,
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x9f563e0d1a03ea9bc7ec143652e59fc14f70b2a5",
+          "codeBytes": 1368,
+          "present": true
+        },
+        {
+          "name": "NFTPawnShop",
+          "address": "0xfba39c1342772e86703d2d29e023a5603c9b0f93",
+          "codeBytes": 3927,
+          "present": true
+        }
+      ],
+      "block": "11791827",
+      "timestamp": "1790493984",
+      "loanCount": "0",
+      "pass": true
+    }
+  ]
+}

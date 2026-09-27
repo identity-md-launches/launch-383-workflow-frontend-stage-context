@@ -1,0 +1,49 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-319-nftpawnshop",
+  "version": 1,
+  "launchId": "6f71f445-55e7-457b-a12d-248b9379afc6",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "For Sepolia (11155111). NFTPawnShop provides permissionless ETH loans against ERC-721 collateral with pull payouts; PAWN is only the launch token. Both contracts have nonpayable, zero-argument constructors. NFTPawnShop has no owner, admin or fees and needs no initialization or PAWN balance. The pool pairs with native ETH and has no hook. The factory supplies the LP and MerkleDistributor. Services apply the pinned policy and handle source publication, signed artifact linkage, attestation, admission and deployment. The declared initialPrice is decimal sqrtPriceX96; a policy specifying initialMarketCapWei determines the effective opening price. Lenders must trust each NFT collection: false ownership reports or reverting transfers can cost the lender the principal. Plain NFT transfers outside request() are untracked and unrecoverable.",
+    "token": {
+      "name": "Pawn",
+      "symbol": "PAWN",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "NFTPawnShop",
+        "constructorArgs": []
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x4c90aab5428604f2f3cefa6e0bceea53f3b69b709d74fde68d7664456bdee061",
+      "abiHash": "fd027dfe4ee720b76c33517f5fccd86e3991838b0693b8d05770b37928dbba16",
+      "address": "0x9f563e0d1a03ea9bc7ec143652e59fc14f70b2a5",
+      "blockNumber": 11791666,
+      "creationCodeHash": "25b07710b99e3a58c46294a9839404e6329423ddeab3975a439ad51e43965d48"
+    },
+    {
+      "name": "NFTPawnShop",
+      "txHash": "0x4c90aab5428604f2f3cefa6e0bceea53f3b69b709d74fde68d7664456bdee061",
+      "abiHash": "29b2d3a74c85a871953abcabdc44d53b0ad09283d45c3488bea01380f5637db6",
+      "address": "0xfba39c1342772e86703d2d29e023a5603c9b0f93",
+      "blockNumber": 11791666,
+      "creationCodeHash": "9d19bd58053f4e5a11dd905cee61bd15c4d0a91092f1e6d3446e6d376519b3ec"
+    }
+  ],
+  "sourceCommit": "570e88afbb3873e43e4a982d84dd7a47d034792b",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "ee986508173558e2002797e1e7e7e03ee70795be77012337dc582913b87528d3"
+}

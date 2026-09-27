@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "measuredAt": "2026-09-27T07:28:00.936Z",
+  "sourceCommit": "570e88afbb3873e43e4a982d84dd7a47d034792b",
+  "scopeCheck": "Only web/**, dist/**, docs/** and web/.gitignore; scratch excluded",
+  "trackedSourcePreserved": true,
+  "prospectiveFiles": 94,
+  "rawFileBytes": 2916887,
+  "bundleBytes": 1486853,
+  "reportReserveBytes": 65536,
+  "maximumBytes": 8388608,
+  "ignorePath": "web/.gitignore",
+  "ignoreBudgetBytes": 1024,
+  "ignoreActualBytes": 75,
+  "submodules": 0,
+  "dependencyArtifacts": 0,
+  "realRepositoryCommitted": false,
+  "note": "Measured a complete clone-history bundle with a prospective snapshot in test/scratch only. The real .git is read-only. Report reserve covers this evidence file added after measurement; scratch bundle is not submitted."
+}

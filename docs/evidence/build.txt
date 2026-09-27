@@ -1,0 +1,32 @@
+
+> pawn-frontend@1.0.0 build
+> tsc --noEmit && vite build && node scripts/export.mjs
+
+vite v7.3.5 building client environment for production...
+transforming...
+✓ 452 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.91 kB │ gzip:   0.55 kB
+../dist/assets/index-bTy_M6VK.css   12.36 kB │ gzip:   3.32 kB
+../dist/assets/ccip-hG912gGq.js      2.90 kB │ gzip:   1.33 kB
+../dist/assets/App-Z4xBgchY.js      44.59 kB │ gzip:  13.86 kB
+../dist/assets/index-xthj54kg.js   459.01 kB │ gzip: 143.97 kB
+✓ built in 2.40s
+{
+  "result": "PASS",
+  "pinnedSource": "570e88afbb3873e43e4a982d84dd7a47d034792b",
+  "abiHashes": [
+    {
+      "name": "LaunchToken",
+      "hash": "fd027dfe4ee720b76c33517f5fccd86e3991838b0693b8d05770b37928dbba16"
+    },
+    {
+      "name": "NFTPawnShop",
+      "hash": "29b2d3a74c85a871953abcabdc44d53b0ad09283d45c3488bea01380f5637db6"
+    }
+  ],
+  "assets": 7,
+  "assetBytes": 532218,
+  "networkUnchanged": true
+}

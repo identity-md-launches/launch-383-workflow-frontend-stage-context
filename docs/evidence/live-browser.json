@@ -1,0 +1,16 @@
+{
+  "observedAt": "2026-09-27T07:21:53.673Z",
+  "title": "Pawn — NFT-backed ETH loans",
+  "url": "http://127.0.0.1:4173/dist/",
+  "width": 1440,
+  "scrollWidth": 1440,
+  "connection": "Deployment checks passed · Block 11791804\n\nRefresh\n\nBrowse the loan book below. Connect a wallet to request, fund, or manage a loan.",
+  "loanCountLabel": "02 / LEND & MANAGE\n0 TOTAL",
+  "externalResources": [
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/"
+  ]
+}

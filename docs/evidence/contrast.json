@@ -1,0 +1,86 @@
+[
+  {
+    "selector": ".hero h1",
+    "foreground": "rgb(25, 53, 44)",
+    "background": "rgb(244, 243, 236)",
+    "ratio": 11.895859146292276,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".hero-copy",
+    "foreground": "rgb(82, 102, 92)",
+    "background": "rgb(244, 243, 236)",
+    "ratio": 5.529838901392362,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".how-card li p",
+    "foreground": "rgb(82, 102, 92)",
+    "background": "rgb(233, 237, 223)",
+    "ratio": 5.168330852454167,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".request-panel label",
+    "foreground": "rgb(25, 53, 44)",
+    "background": "rgb(255, 254, 249)",
+    "ratio": 13.104818709495294,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".collection p",
+    "foreground": "rgb(101, 69, 20)",
+    "background": "rgb(255, 254, 249)",
+    "ratio": 8.612547118962645,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".badge.state-2",
+    "foreground": "rgb(101, 69, 20)",
+    "background": "rgb(246, 237, 215)",
+    "ratio": 7.45996253570474,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".connect",
+    "foreground": "rgb(255, 254, 249)",
+    "background": "rgb(41, 77, 59)",
+    "ratio": 9.372127552809596,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".credit-panel p:not(.eyebrow)",
+    "foreground": "rgb(213, 227, 213)",
+    "background": "rgb(25, 53, 44)",
+    "ratio": 9.942167879540362,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".credit-value",
+    "foreground": "rgb(255, 254, 249)",
+    "background": "rgb(25, 53, 44)",
+    "ratio": 13.104818709495294,
+    "minimum": 4.5
+  },
+  {
+    "selector": ".full-width focus",
+    "foreground": "rgb(18, 91, 194)",
+    "background": "rgb(255, 254, 249)",
+    "ratio": 6.299791928451759,
+    "minimum": 3
+  },
+  {
+    "selector": ".connect focus",
+    "foreground": "rgb(18, 91, 194)",
+    "background": "rgb(244, 243, 236)",
+    "ratio": 5.718616876211432,
+    "minimum": 3
+  },
+  {
+    "selector": ".credit-action button focus",
+    "foreground": "rgb(255, 254, 249)",
+    "background": "rgb(25, 53, 44)",
+    "ratio": 13.104818709495294,
+    "minimum": 3
+  }
+]
